@@ -1,3 +1,4 @@
 - sudo apt-get install
 - sudo ps -A
 - ps -G root
+- */10 * * * * /home/maverick/check-disk-space
