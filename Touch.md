@@ -5,3 +5,4 @@
 - chmod u=rwx,g=rx,o=r myfile.txt
 - ping google.com
 - kill pid
+- ls ~ | grep "Desktop"
