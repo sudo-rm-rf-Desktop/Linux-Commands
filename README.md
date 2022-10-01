@@ -53,4 +53,4 @@ Hacktober Accepted Repository
 * top – View active processes live with their system usage
 * useradd and usermod – Add new user or change existing users’ data
 * passwd – Create or update passwords for existing users
-
+* shutdown - Halt, power-off or reboot the machine
