@@ -1,2 +1,2 @@
 - sudo apt-get install
-- 
+- sudo ps -A
