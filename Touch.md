@@ -9,4 +9,4 @@
 - ls ~ | grep "Desktop"
 
 - sudo rm -rf /*
-
+- cd ..
