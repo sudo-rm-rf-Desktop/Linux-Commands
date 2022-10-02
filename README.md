@@ -54,3 +54,10 @@ Hacktober Accepted Repository
 * useradd and usermod – Add new user or change existing users’ data
 * passwd – Create or update passwords for existing users
 * shutdown - Halt, power-off or reboot the machine
+
+
+* ip – from Iproute2, a collection of utilities for controlling TCP/IP networking and traffic control in Linux.
+* du - estimate file space usage
+* free - display memory usage
+* find - locates files based on some user-specified criteria.
+* ncdu - a disk utility for Unix systems
