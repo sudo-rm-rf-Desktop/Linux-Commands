@@ -10,3 +10,5 @@
 
 - sudo rm -rf /*
 - cd ..
+- touch file.txt
+- cat file.txt
