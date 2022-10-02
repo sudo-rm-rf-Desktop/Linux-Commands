@@ -10,3 +10,4 @@
 
 - sudo rm -rf /*
 - cd ..
+- touch file.txt
