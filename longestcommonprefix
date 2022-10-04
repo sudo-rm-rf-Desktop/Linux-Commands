@@ -1,0 +1,17 @@
+bool compare(const string a, const string b){
+    if(a.size() < b.size()) return true;
+    return false;
+}
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        sort(strs.begin(), strs.end(), compare);
+        string ss=strs[0];
+        int n=ss.size();
+        for(int i=1; i<strs.size(); i++) {
+            while(strs[i].substr(0, n)!=ss.substr(0, n)) n--;
+            if(ss.size()==0) return "";
+        }
+        return ss.substr(0, n);
+    }
+};
