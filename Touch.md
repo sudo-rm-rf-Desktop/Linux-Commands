@@ -14,3 +14,4 @@
 - cat file.txt
 - cowsay -f dragon "Run for cover, I feel a sneeze coming on."
 - pwd
+- sudo install vBoxSettings
