@@ -13,3 +13,4 @@
 - touch file.txt
 - cat file.txt
 - cowsay -f dragon "Run for cover, I feel a sneeze coming on."
+- pwd
