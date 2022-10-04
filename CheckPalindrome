@@ -1,0 +1,28 @@
+class Solution {
+public:
+	bool isPalindrome(string s) {
+		// we create new string to store the chars and numbers only from the previous string 
+		// and create new string to make reverse on it to check if the new string is equal to the previous or not 
+		// true if (cast == new_string || new_string.size() == 1) 
+
+
+		string new_string = "";
+		// 1) First Operation
+		// Store Chars and Numbers From the Previous String
+		for(int i = 0 ; i < s.size() ; i++) {
+			char chr = tolower(s[i]);
+			if((chr >= 'a' && chr <= 'z') || (chr >= '0' && chr <= '9') ) {
+				new_string += chr ; 
+			}
+		}
+
+		// 2) Second Operation
+		// Check Palindrome 
+		string cast = new_string;
+		reverse(cast.begin(),cast.end());
+
+		// 3) Third Operation
+		// Return True Based On The Current Condition 
+		return cast == new_string || new_string.size() == 1 ; 
+	}
+};
