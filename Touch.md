@@ -15,4 +15,6 @@
 - cowsay -f dragon "Run for cover, I feel a sneeze coming on."
 - pwd
 - sudo install vBoxSettings
+- cat test.txt | awk -F "," '{print $3}'
+
 - ps -ef |grep systemd
