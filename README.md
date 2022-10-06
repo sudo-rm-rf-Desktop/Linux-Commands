@@ -54,6 +54,7 @@ Hacktober Accepted Repository
 * useradd and usermod – Add new user or change existing users’ data
 * passwd – Create or update passwords for existing users
 * shutdown - Halt, power-off or reboot the machine
+* wc - wordlist count form txt file without open a file
 
 
 * ip – from Iproute2, a collection of utilities for controlling TCP/IP networking and traffic control in Linux.
