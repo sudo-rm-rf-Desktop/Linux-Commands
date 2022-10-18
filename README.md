@@ -56,7 +56,8 @@ Hacktober Accepted Repository
 * passwd – Create or update passwords for existing users
 * shutdown - Halt, power-off or reboot the machine
 * wc - wordlist count form txt file without open a file
-
+* git clone - clone any repo or download any repo on Linux 
+* chmod - For giving permission to run or access 
 
 * ip – from Iproute2, a collection of utilities for controlling TCP/IP networking and traffic control in Linux.
 * du - estimate file space usage
