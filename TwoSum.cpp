@@ -1,3 +1,5 @@
+/* This code is to check Two Sum */
+
 #include<bits/stdc++.h>
 
 using namespace std;
