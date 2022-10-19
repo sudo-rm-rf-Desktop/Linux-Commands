@@ -1,6 +1,6 @@
 # Linux-Commands
 
-Hacktoberfest Accepted Repository
+Hacktober Accepted Repository
 
 #### Top 50 Most Frequently Used Linux Commands 
 * ls – The most frequently used command in Linux to list directories
@@ -61,6 +61,9 @@ Hacktoberfest Accepted Repository
 
 * ip – from Iproute2, a collection of utilities for controlling TCP/IP networking and traffic control in Linux.
 * du - estimate file space usage
-* free - display memory usage
+* free - display memory and swap usage
 * find - locates files based on some user-specified criteria.
 * ncdu - a disk utility for Unix systems
+* ip addr show - show your ip address information
+* hostname -I - show your ip address
+* reboot - reboot your system
