@@ -1,6 +1,6 @@
 # Linux-Commands
 
-Hacktober Accepted Repository
+Hacktoberfest Accepted Repository
 
 #### Top 50 Most Frequently Used Linux Commands 
 * ls – The most frequently used command in Linux to list directories
