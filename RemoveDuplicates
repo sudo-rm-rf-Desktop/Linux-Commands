@@ -1,0 +1,43 @@
+// C++ program to create a unique string
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to make the string unique
+string unique(string s)
+{
+	string str;
+	int len = s.length();
+
+	// loop to traverse the string and
+	// check for repeating chars using
+	// IndexOf() method in Java
+	for(int i = 0; i < len; i++)
+	{
+		
+		// character at i'th index of s
+		char c = s[i];
+
+		// If c is present in str, it returns
+		// the index of c, else it returns npos
+		auto found = str.find(c);
+		if (found == std::string::npos)
+		{
+			
+			// Adding c to str if npos is returned
+			str += c;
+		}
+	}
+	return str;
+}
+
+// Driver code
+int main()
+{
+	
+	// Input string with repeating chars
+	string s = "geeksforgeeks";
+
+	cout << unique(s) << endl;
+}
+
+// This code is contributed by nirajgusain5
