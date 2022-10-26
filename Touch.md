@@ -18,3 +18,6 @@
 - cat test.txt | awk -F "," '{print $3}'
 
 - ps -ef |grep systemd
+
+
+/* Accepted */
