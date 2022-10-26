@@ -1,4 +1,4 @@
-/* This is a code to check Palindrome */
+/* This is a code to check Palindrome for CP */
 class Solution {
 public:
 	bool isPalindrome(string s) {
